@@ -1,0 +1,43 @@
+INFO:root:Открыли страницу https://hh.ru/search/vacancy?text=%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA&enable_snippets=true
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+WARNING:root:Не нашли элемент: [data-qa=vacancy-serp__vacancy_snippet_requirement]
+WARNING:root:Не достали текст из элемента: span
+ERROR:root:Ошибка при парсинге: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x00000001053c3ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001053bba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104e877c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104e8d9f0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100484
+4   chromedriver                        0x0000000104e8fc74 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109320
+5   chromedriver                        0x0000000104e8fd2c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109504
+6   chromedriver                        0x0000000104ed4874 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 390920
+7   chromedriver                        0x0000000104ed3f48 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 388572
+8   chromedriver                        0x0000000104f16f48 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 663004
+9   chromedriver                        0x0000000104f0f448 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631516
+10  chromedriver                        0x0000000104ec4e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+11  chromedriver                        0x0000000105381240 cxxbridge1$str$ptr + 2920364
+12  chromedriver                        0x0000000105384a20 cxxbridge1$str$ptr + 2934668
+13  chromedriver                        0x00000001053671f4 cxxbridge1$str$ptr + 2813792
+14  chromedriver                        0x00000001053852a0 cxxbridge1$str$ptr + 2936844
+15  chromedriver                        0x000000010535801c cxxbridge1$str$ptr + 2751880
+16  chromedriver                        0x00000001053aa980 cxxbridge1$str$ptr + 3090156
+17  chromedriver                        0x00000001053aaafc cxxbridge1$str$ptr + 3090536
+18  chromedriver                        0x00000001053bb6dc cxxbridge1$str$ptr + 3159112
+19  libsystem_pthread.dylib             0x0000000194b43c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000194b3eba8 thread_start + 8
+
+ERROR:root:Текущая страница: https://hh.ru/search/vacancy?text=%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA&enable_snippets=true&page=35&search_session_id=1538825f-1614-4f3e-9365-2f4f2cd9c169

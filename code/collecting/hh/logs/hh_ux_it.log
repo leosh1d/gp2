@@ -1,0 +1,27 @@
+INFO:root:Открыли страницу https://hh.ru/search/vacancy?text=ui+ux+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80&enable_snippets=true
+ERROR:root:Ошибка при парсинге: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+0   chromedriver                        0x0000000102f6fab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102f67a84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000102a337c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000102a399f0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 100484
+4   chromedriver                        0x0000000102a3bc74 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109320
+5   chromedriver                        0x0000000102a3bd2c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 109504
+6   chromedriver                        0x0000000102a80874 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 390920
+7   chromedriver                        0x0000000102a7ff48 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 388572
+8   chromedriver                        0x0000000102ac2f48 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 663004
+9   chromedriver                        0x0000000102abb448 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631516
+10  chromedriver                        0x0000000102a70e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+11  chromedriver                        0x0000000102f2d240 cxxbridge1$str$ptr + 2920364
+12  chromedriver                        0x0000000102f30a20 cxxbridge1$str$ptr + 2934668
+13  chromedriver                        0x0000000102f131f4 cxxbridge1$str$ptr + 2813792
+14  chromedriver                        0x0000000102f312a0 cxxbridge1$str$ptr + 2936844
+15  chromedriver                        0x0000000102f0401c cxxbridge1$str$ptr + 2751880
+16  chromedriver                        0x0000000102f56980 cxxbridge1$str$ptr + 3090156
+17  chromedriver                        0x0000000102f56afc cxxbridge1$str$ptr + 3090536
+18  chromedriver                        0x0000000102f676dc cxxbridge1$str$ptr + 3159112
+19  libsystem_pthread.dylib             0x0000000194b43c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x0000000194b3eba8 thread_start + 8
+
+ERROR:root:Текущая страница: https://hh.ru/search/vacancy?text=ui+ux+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80&enable_snippets=true&page=11&search_session_id=f9525e34-843e-44d6-81e7-89107ae4b620
